@@ -1,0 +1,87 @@
+$primary-color: #1b632d;
+$primary-color-dark: #134921;
+$overlay-dark: rgba(0, 0, 0, 0.4);
+
+body {
+	margin-top: 100px;
+	background: white;
+}
+
+.navbar {
+	background: $primary-color;
+	border-bottom: 10px $primary-color-dark solid;
+
+	.nav-item {
+		font-size: 1.4rem;
+		padding-right: 20px;
+	}
+}
+
+#showcase {
+	.carousel-item {
+		max-height: 700px;
+	}
+	.carousel-caption {
+		background: $overlay-dark;
+		width: 100%;
+		left: 0;
+		h1,p {
+			text-shadow: 2px 3px 8px black, 2px 3px 4px black;
+		}
+	}
+}
+
+#mission-section {
+	background: url("../img/ourmission.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	.dark-overlay {
+		background: rgba(0, 0, 0, 0.2);
+	}
+	#mission {
+		background: rgba(227, 227, 227, 0.7);
+		font-weight: 500;
+	}
+}
+#services-section {
+	background: url("../img/services.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	.dark-overlay {
+		background: rgba(0, 0, 0, 0.2);
+	}
+	#services {
+		background: rgba(227, 227, 227, 0.7);
+		font-weight: 500;
+	}
+	td {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+#testimonials {
+	background: $primary-color;
+}
+
+#testimonials-section {
+	background: url("../img/testimonial.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	.dark-overlay {
+		background: rgba(0, 0, 0, 0.2);
+	}
+	.carousel-item {
+		background: rgba(32, 32, 32, 0.7);
+		font-weight: 500;
+	}
+}
+
+#contact {
+	.btn {
+		background: $primary-color;
+	}
+}

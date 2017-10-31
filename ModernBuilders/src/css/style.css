@@ -1,0 +1,62 @@
+body {
+  margin-top: 100px;
+  background: white; }
+
+.navbar {
+  background: #1b632d;
+  border-bottom: 10px #134921 solid; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+
+#showcase .carousel-item {
+  max-height: 700px; }
+
+#showcase .carousel-caption {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  left: 0; }
+  #showcase .carousel-caption h1, #showcase .carousel-caption p {
+    text-shadow: 2px 3px 8px black, 2px 3px 4px black; }
+
+#mission-section {
+  background: url("../img/ourmission.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  #mission-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.2); }
+  #mission-section #mission {
+    background: rgba(227, 227, 227, 0.7);
+    font-weight: 500; }
+
+#services-section {
+  background: url("../img/services.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  #services-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.2); }
+  #services-section #services {
+    background: rgba(227, 227, 227, 0.7);
+    font-weight: 500; }
+  #services-section td {
+    padding-left: 10px;
+    padding-right: 10px; }
+
+#testimonials {
+  background: #1b632d; }
+
+#testimonials-section {
+  background: url("../img/testimonial.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  #testimonials-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.2); }
+  #testimonials-section .carousel-item {
+    background: rgba(32, 32, 32, 0.7);
+    font-weight: 500; }
+
+#contact .btn {
+  background: #1b632d; }
